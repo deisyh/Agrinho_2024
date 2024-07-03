@@ -4,7 +4,7 @@
 }
 /* setup das variaveis*/
 :root {
-	--verde-fundo: #deece7;
+	--verde-fundo: #aeffb5;
 	--branco-principal: #ffffff;
 	--fonte-principal: "Lustria";
 	--verde-principal: #5fb13b;
@@ -90,6 +90,8 @@ a.cabecalho__botao {
 .secao1__descricao {
 	width: 50%;
 }
+
+
 .secao1__titulo {
 	font-weight: 700;
 	font-size: 48px;

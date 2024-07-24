@@ -4,7 +4,7 @@
 }
 /* setup das variaveis*/
 :root {
-	--verde-fundo: #aeffb5;
+	--verde-fundo: #0098be;
 	--branco-principal: #ffffff;
 	--fonte-principal: "Lustria";
 	--verde-principal: #5fb13b;
@@ -91,7 +91,6 @@ a.cabecalho__botao {
 	width: 50%;
 }
 
-
 .secao1__titulo {
 	font-weight: 700;
 	font-size: 48px;
@@ -106,6 +105,7 @@ a.cabecalho__botao {
 
 /* estilo seção 2*/
 .secao2__img__titulo {
+	color: #5fb13b;
 	color: var(--preto-titulo);
 	font-weight: 700;
 	font-size: 48px;
@@ -122,9 +122,8 @@ a.cabecalho__botao {
 }
 .secao2__imagens {
 	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	padding: 2em;
+	margin-left: 5%;
+	border-radius: 10px ;
 }
 .secao2__imagens  img {
 	width: 95%;
@@ -133,10 +132,26 @@ a.cabecalho__botao {
 	margin: 50px  0px  30px  0px;
 }
 .secao2__subtitulo  h2 {
+	
 	margin-top: 35px;
 	color: var(--preto-titulo);
 	font-size: 30px;
 }
+
+.secao2__subtitulo{
+	width: 100%;
+}
+.img_secao2_2{
+	width: 600px;
+	height: 800px;
+	border-radius: 10px ;
+}
+.img_sesacao2_1{
+	width:800px;
+	height: 600px;
+	border-radius: 10px ;
+}
+
 
 /* estilo seção 3*/
 .secao3__imagem {
@@ -176,7 +191,7 @@ a.cabecalho__botao {
 	font-size: 50px;
 }
 .secao4__imagem  img {
-	width: 100%;
+	width: 50%;
 }
 .secao4__endereco {
 	text-align: center;
@@ -217,6 +232,7 @@ a.cabecalho__botao {
 	height: auto;
 	border-radius: 5%;
 }
+
 
 /* ########################## Responsivo para celulares e tablets ##############################*/
 /* -- 320px — 480px: dispositivos móveis CELULAR --*/
